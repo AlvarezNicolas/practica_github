@@ -2,7 +2,12 @@
 ejercicio 3
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 Bruno Lautaro Giacomelli
+=======
+Bruno Lautaro Giacomelli 
+No se que he hecho
+>>>>>>> RamaDeBruno
 =======
 Maximiliano
 >>>>>>> b06be88b577cb99b624a1925415ec908769d45e7
@@ -33,4 +38,8 @@ Nicolas Alvarez
 Vanesa Morilla
 >>>>>>> RamaVane
 >>>>>>> fefb9d6d67c18dcdb4faffb04ac07ccb8eafa134
+<<<<<<< HEAD
 >>>>>>> 525861f8e0304ec60a72e31af952b31df51c4feb
+=======
+>>>>>>> dc66c4367b395047df85358e42c1837788e642ed
+>>>>>>> RamaDeBruno
