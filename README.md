@@ -1,3 +1,4 @@
 # practica_github
 ejercicio 3
-Bruno Giacomelli
+Bruno Giacomeli
+Gerardo Tomassetti.-
