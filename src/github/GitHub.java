@@ -18,7 +18,9 @@ public class GitHub {
      */
     public static void main(String[] args) {
         
+         ServicioPersona SP = new ServicioPersona();
         
+        SP.CrearPersona();
         
     }
     
