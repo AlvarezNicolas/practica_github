@@ -5,8 +5,13 @@ Maximiliano
 =======
 Bruno Giacomelli
 <<<<<<< HEAD
+<<<<<<< HEAD
 Diego Martinez
 >>>>>>> RamaDiego
+=======
+Nicolas Alvarez
+>>>>>>> RamaNico
+>>>>>>> dc66c4367b395047df85358e42c1837788e642ed
 =======
 Vanesa Morilla
 >>>>>>> RamaVane
