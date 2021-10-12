@@ -4,7 +4,12 @@ ejercicio 3
 Maximiliano
 =======
 Bruno Giacomelli
+<<<<<<< HEAD
 
 
 Nota de Erika, esta es mi ramita
 >>>>>>> RamaDeErika
+=======
+Vanesa Morilla
+>>>>>>> RamaVane
+>>>>>>> fefb9d6d67c18dcdb4faffb04ac07ccb8eafa134
