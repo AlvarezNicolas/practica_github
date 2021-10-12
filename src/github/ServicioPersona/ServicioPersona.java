@@ -11,4 +11,17 @@ package github.ServicioPersona;
  */
 public class ServicioPersona {
     
+    public Personas CrearPersona() {
+        Scanner leer = new Scanner(System.in).useDelimiter("/n");
+        
+        System.out.println("Ingrese el nomnbre de la persona");
+        String Nombre = leer.next();
+
+        System.out.println("Ingrese el apellido de la persona");
+        String Apellido = leer.next();
+
+        System.out.println("Ingrese la edad de la persona");
+        int Edad = leer.nextInt();
+        return new Personas();
+    }    
 }
