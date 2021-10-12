@@ -2,7 +2,8 @@
 ejercicio 3
 <<<<<<< HEAD
 <<<<<<< HEAD
-Bruno Lautaro Giacomelli
+Bruno Lautaro Giacomelli 
+No se que he hecho
 =======
 Maximiliano
 >>>>>>> b06be88b577cb99b624a1925415ec908769d45e7
