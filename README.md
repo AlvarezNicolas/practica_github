@@ -30,5 +30,5 @@ Bruno Giacomelli
 
 10)Valeria La Rosa
 
-12)Luis lopez
+12)Luis lopez como me cuesta esta miar....... uff 
 >>>>>>> f9d276a4a183e540a7ebb97731b6cdeadfe4e267
