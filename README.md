@@ -1,14 +1,6 @@
 # practica_github
 ejercicio 3
-<<<<<<< HEAD
-<<<<<<< HEAD
-Maximiliano
-=======
-Bruno Giacomelli
 
->>>>>>> RamaVale
-
-=======
 
 1) Bruno Lautaro Giacomelli
 
@@ -30,5 +22,9 @@ Bruno Giacomelli
 
 10)Valeria La Rosa
 
-11)Matias Bertolo 
->>>>>>> f9d276a4a183e540a7ebb97731b6cdeadfe4e267
+11) Si Trom pudo, yo tambien!!!! Mariana Saubidet
+
+12)Cinty
+
+13)Matias Bertolo 
+
