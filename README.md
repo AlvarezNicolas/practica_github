@@ -1,7 +1,6 @@
 # practica_github
 ejercicio 3
 
-
 1) Bruno Lautaro Giacomelli
 
 2) Maximiliano
@@ -26,5 +25,9 @@ ejercicio 3
 
 12)Cinty
 
-13)Matias Bertolo 
+ 
 
+13)Luis lopez como me cuesta esta miar....... uff 
+
+
+14)Matias Bertolo
