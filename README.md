@@ -26,4 +26,6 @@ ejercicio 3
 12)Cinty
 
 13)Luis lopez como me cuesta esta miar....... uff 
+tortilla de papa
+
 
