@@ -41,5 +41,8 @@ Vanesa Morilla
 9) Paula Medina
 
 10)Valeria La Rosa
+
+Gerardo Tomassetti.-  13/10/21
+
 >>>>>>> f9d276a4a183e540a7ebb97731b6cdeadfe4e267
 >>>>>>> 9a05b626772a2fee3de1b2c303e34f7727c3dcc4
