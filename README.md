@@ -1,6 +1,7 @@
 # practica_github
 ejercicio 3
 
+
 1) Bruno Lautaro Giacomelli
 
 2) Maximiliano
@@ -21,4 +22,6 @@ ejercicio 3
 
 10)Valeria La Rosa
 
-11)Cinty
+11) Si Trom pudo, yo tambien!!!! Mariana Saubidet
+
+12)Cinty
