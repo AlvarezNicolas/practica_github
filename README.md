@@ -21,6 +21,9 @@ ejercicio 3
 
 10)Valeria La Rosa
 
+11) Si Trom pudo, yo tambien!!!! Mariana Saubidet
 
-12)Luis lopez como me cuesta esta miar....... uff 
+12)Cinty
+
+13)Luis lopez como me cuesta esta miar....... uff 
 
