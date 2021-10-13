@@ -21,6 +21,7 @@ ejercicio 3
 
 10)Valeria La Rosa
 
+<<<<<<< HEAD
 11) Si Trom pudo, yo tambien!!!! Mariana Saubidet
 
 12)Cinty
@@ -31,3 +32,7 @@ ejercicio 3
 
 
 14)Matias Bertolo
+=======
+15)Joaquin Villegas
+>>>>>>> f9d276a4a183e540a7ebb97731b6cdeadfe4e267
+>>>>>>> 8cdf4387c5c5df233e618615e128a9638c3d9795
