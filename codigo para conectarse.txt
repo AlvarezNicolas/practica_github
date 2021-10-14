@@ -1,0 +1,235 @@
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/mball/Documents/ejercicio3/.git/
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git remote add origin https://github.com/AlvarezNicolas/practica_github.git
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git remote -v
+origin  https://github.com/AlvarezNicolas/practica_github.git (fetch)
+origin  https://github.com/AlvarezNicolas/practica_github.git (push)
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git pull origin master
+remote: Enumerating objects: 90, done.
+remote: Counting objects: 100% (90/90), done.
+remote: Compressing objects: 100% (56/56), done.
+remote: Total 90 (delta 37), reused 68 (delta 25), pack-reused 0
+Unpacking objects:  51% (46/90)
+Unpacking objects: 100% (90/90), 22.27 KiB | 64.00 KiB/s, done.
+From https://github.com/AlvarezNicolas/practica_github
+ * branch            master     -> FETCH_HEAD
+ * [new branch]      master     -> origin/master
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git add .
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git commit -m {.{DS_Store,git},README.md,build.xml,manifest.mf,nbpr
+error: pathspec '{.git,README.md,build.xml,manifest.mf,nbpr' did not match any file(s) known to git
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git commit -m "actualizacion Paula Medina"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'mballonga@LAPTOP-SSNL96GP.(none)')
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git config -- global^C
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ ^C
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$  git config --global user.email "you@example.com"
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git config --global user.email "paulananamedina@gmail.com"
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git config --global user.name "PaulaIMedina"
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git checkout -b
+error: switch `b' requires a value
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git checkout -b "RamaPaula"
+Switched to a new branch 'RamaPaula'
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (RamaPaula)
+$ git pull origin master
+remote: Enumerating objects: 30, done.
+remote: Counting objects: 100% (30/30), done.
+remote: Compressing objects: 100% (10/10), done.
+remote: Total 22 (delta 12), reused 22 (delta 12), pack-reused 0
+Unpacking objects: 100% (22/22), 2.69 KiB | 36.00 KiB/s, done.
+From https://github.com/AlvarezNicolas/practica_github
+ * branch            master     -> FETCH_HEAD
+   525861f..b7f097e  master     -> origin/master
+error: Your local changes to the following files would be overwritten by merge:
+        README.md
+Please commit your changes or stash them before you merge.
+Aborting
+Updating 525861f..b7f097e
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (RamaPaula)
+$ git commit -m "listo"
+[RamaPaula 65c8b7e] listo
+ 1 file changed, 1 insertion(+)
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (RamaPaula)
+$ git add .
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (RamaPaula)
+$ git push .
+Everything up-to-date
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (RamaPaula)
+$ git checkout master
+Switched to branch 'master'
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git add .
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git merge RamaPaula
+Updating 525861f..65c8b7e
+Fast-forward
+ README.md | 1 +
+ 1 file changed, 1 insertion(+)
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git push origin master
+To https://github.com/AlvarezNicolas/practica_github.git
+ ! [rejected]        master -> master (non-fast-forward)
+error: failed to push some refs to 'https://github.com/AlvarezNicolas/practica_github.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git pull origin master
+From https://github.com/AlvarezNicolas/practica_github
+ * branch            master     -> FETCH_HEAD
+Auto-merging README.md
+CONFLICT (content): Merge conflict in README.md
+Automatic merge failed; fix conflicts and then commit the result.
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$ git add .
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$ git merge RamaPaula
+fatal: You have not concluded your merge (MERGE_HEAD exists).
+Please, commit your changes before you merge.
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$ git commit -m
+$ git add .
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git status
+error: switch `m' requires a value
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$ mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+bash: syntax error near unexpected token `('
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$ $ git add .
+bash: $: command not found
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$ mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+bash: syntax error near unexpected token `('
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$ $ git status
+bash: $: command not found
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$ git commit -m
+$ git add .
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git status
+error: switch `m' requires a value
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$ mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+bash: syntax error near unexpected token `('
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$ $ git add .
+bash: $: command not found
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$ mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+bash: syntax error near unexpected token `('
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$ $ git status
+bash: $: command not found
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master|MERGING)
+$ git commit -m "listo"
+[master 1bd976e] listo
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
+$ git push origin master
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 649 bytes | 649.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (4/4), completed with 3 local objects.
+To https://github.com/AlvarezNicolas/practica_github.git
+   b7f097e..1bd976e  master -> master
+
+mballonga@LAPTOP-SSNL96GP MINGW64 ~/Documents/ejercicio3 (master)
